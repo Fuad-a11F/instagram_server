@@ -43,9 +43,9 @@ module.exports = function(sequelize, DataTypes) {
       type: DataTypes.TEXT,
       allowNull: true
     },
-    status: {
-      type: DataTypes.STRING(100),
-      allowNull: true
+    hint: {
+      type: DataTypes.BOOLEAN(),
+      allowNull: false
     }
   },
   {
